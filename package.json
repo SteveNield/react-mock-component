@@ -5,7 +5,7 @@
   "main": "build/index.js",
   "scripts": {
     "test": "jest",
-    "publish": "webpack --mode production && npm version patch && npm publish"
+    "build:publish": "webpack --mode production && npm version patch && npm publish"
   },
   "repository": {
     "type": "git",
