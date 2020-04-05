@@ -1,6 +1,6 @@
 {
   "name": "react-simple-mock-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React component which can easily be used to mock component dependencies in tests",
   "main": "build/index.js",
   "scripts": {
