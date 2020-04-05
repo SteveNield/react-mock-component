@@ -26,7 +26,7 @@ const formatValue = val => {
   return renderType[type](val);
 };
 
-export default MockComponent = ({children, ...props}) => {
+const MockComponent = ({children, ...props}) => {
   return (
     <div data-testid={props['data-testid']}>
       {
@@ -83,3 +83,5 @@ export const constructMockComponentWithHandler = ({
     )
   };
 }
+
+export default MockComponent;
